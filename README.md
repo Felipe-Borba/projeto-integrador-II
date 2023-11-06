@@ -24,6 +24,7 @@ npm install -g yarn
 ```
 
 open project folder
+
 ```console
 cd projeto-integrador-II
 ```
@@ -39,3 +40,24 @@ run the project
 ```console
 npx yarn dev
 ```
+
+---
+
+# Problema
+
+Regis estudante numa sexta a noite está com vontade de fazer alguma coisa / sair mas não sabe onde pode dar aquele role, ele gosta de rock, cerveja, e roda punk.
+Julia mestranda cansada da sua tese precisa espairrar a sua cabeça e procura algum lugar para ir, mas é nova na cidade e não conhece a região e precisa economizar.
+Matheus adora show em geral mas está cansado de ficar procurando em vários lugares diferentes os shows da sua banda favorita e gostaria de saber quando eles fizerem um show perto da sua cidade.
+Sonia tem um carrinho de cachorro quente mas não sabe onde seria a melhor localização para maximizar o seu faturamento.
+
+# Proposta
+
+Densenvolver um website com a classificação e divulgação de show, eventos, bar, atrações, com avaliações e média de preço
+
+# Objetivo
+
+# Escopo
+
+# Riscos
+
+Asfas
