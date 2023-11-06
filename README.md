@@ -7,13 +7,13 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-# :gear Dependencies
+# :gear: Dependencies
 
 - node 16.19.0
 - yarn 1.22.19
 - react 18.2.0
 
-# Setup
+# :wrench: Setup
 
 Open the project on the vscode (recommended)
 
@@ -23,14 +23,19 @@ if you don't have yarn installed
 npm install -g yarn
 ```
 
+open project folder
+```console
+cd projeto-integrador-II
+```
+
 install all the dependencies
 
 ```console
-yarn
+npx yarn
 ```
 
 run the project
 
 ```console
-yarn dev
+npx yarn dev
 ```
