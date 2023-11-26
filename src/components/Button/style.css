@@ -7,6 +7,8 @@ button {
 
   background: transparent;
 
+  cursor: pointer;
+
   /* inherit font & color from ancestor */
   color: inherit;
   font: inherit;
@@ -20,6 +22,7 @@ button {
 
   /* Corrects inability to style clickable `input` types in iOS */
   -webkit-appearance: none;
+  appearance: none;
 }
 
 /* Remove excess padding and border in Firefox 4+ */
