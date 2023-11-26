@@ -1,12 +1,15 @@
-import { Footer } from "../../components/Footer";
-import { Header } from "../../components/Header";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Main from "../../components/Main";
 
 export const Home = () => {
   return (
-    <div>
-      <Header/>
-      <h1>teste</h1>
-      <Footer/>
-    </div>
+    <>
+      <Header />
+      <Main>
+        <h1>teste</h1>
+      </Main>
+      <Footer />
+    </>
   );
 };
