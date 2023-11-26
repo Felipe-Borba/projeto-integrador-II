@@ -1,0 +1,32 @@
+.homeBgGirl {
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 767px;
+  flex-shrink: 0;
+
+  background: linear-gradient(175deg, rgba(0, 0, 0, 0) 46.75%, #000 133.81%),
+    url("../../assets/home-bg-img-girl.png"),
+    lightgray 0px -86px / 100% 125.163% no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dna {
+  position: absolute;
+  z-index: -1;
+  margin-top: 767px;
+
+  width: 100%;
+  height: 1397px;
+  /* transform: rotate(33.107deg); */
+  /* flex-shrink: 0; */
+
+  opacity: 0.6;
+  background: url("../../assets/forma-metalica-ondulada-na-renderizacao-3d-de-fundo-violeta.png"),
+    50% / cover no-repeat;
+  background-blend-mode: darken;
+  background-position: center;
+  background-size: cover;
+  filter: blur(21.5px);
+}
