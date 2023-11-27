@@ -11,13 +11,23 @@ export const Cadastro = () => {
     confirmarSenha: '',
   });
 
+  const [erroSenha, setErroSenha] = useState('');
+
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prevData) => ({
+      ...prevData,
       [name]: value,
-    });
-  };
+    }));
+
+    if (name === 'senha' || name === 'confirmarSenha') {
+      setErroSenha(
+        formData.senha !== formData.confirmarSenha
+          ? 'As senhas não coincidem'
+          : ''
+      );
+    }
+  }  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -33,7 +43,7 @@ export const Cadastro = () => {
           Usuario:
             <input 
               type="name"
-              name="nome"
+              className="nome"
               value={FormData.nome}
               onChange={handleChange}
             />
@@ -43,7 +53,7 @@ export const Cadastro = () => {
           Email:
             <input 
               type="email" 
-              name="email" 
+              className="email" 
               value={FormData.email} 
               onChange={handleChange}
             />
@@ -53,7 +63,7 @@ export const Cadastro = () => {
           Senha:
             <input 
               type="password" 
-              name="senha" 
+              className="senha" 
               value={FormData.senha} 
               onChange={handleChange}
             />
@@ -62,17 +72,18 @@ export const Cadastro = () => {
           Confirmar senha:
             <input 
               type="password" 
-              name="confirmarSenha" 
+              className="confirmarSenha" 
               value={FormData.confirmarSenha} 
               onChange={handleChange}
             />
         </label>
         <p style={{ color: 'red' }}>{erroSenha}</p>
-        <button type="submit" disabled={erroSenha !== ''}/>
+        <button id="btn" type="submit" disabled={erroSenha !== ''}/>
       </form>
 
     </Main>
     <Footer/>
   </>);
 };
-  
+
+export default Cadastro;  
