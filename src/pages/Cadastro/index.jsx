@@ -1,6 +1,7 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Main from "../../components/Main";
+import React, { useState } from 'react';
 
 
 export const Cadastro = () => {
@@ -36,6 +37,8 @@ export const Cadastro = () => {
 
   return (
   <>
+    <div className="homeBgGirl" />
+    <div className="dna" />
     <Header/>
     <Main>
       <form onSubmit={handleSubmit}>
@@ -48,7 +51,7 @@ export const Cadastro = () => {
               onChange={handleChange}
             />
         </label>
-
+        <br/>
         <label>
           Email:
             <input 
@@ -58,7 +61,7 @@ export const Cadastro = () => {
               onChange={handleChange}
             />
         </label>
-
+        <br/>
         <label>
           Senha:
             <input 
@@ -68,6 +71,7 @@ export const Cadastro = () => {
               onChange={handleChange}
             />
         </label>
+        <br/>
         <label>
           Confirmar senha:
             <input 

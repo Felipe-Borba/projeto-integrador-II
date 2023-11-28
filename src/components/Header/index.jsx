@@ -23,7 +23,7 @@ export default function Header() {
       </nav>
 
       <div>
-        <ButtonLink>Fazer cadastro</ButtonLink>
+        <ButtonLink href="/cadastro">Fazer cadastro</ButtonLink>
         <ButtonPrimary>Entrar</ButtonPrimary>
       </div>
     </header>
