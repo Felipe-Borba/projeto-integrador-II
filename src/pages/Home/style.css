@@ -30,3 +30,41 @@
   background-size: cover;
   filter: blur(21.5px);
 }
+
+.flowImgLogo {
+  margin-top: 24px;
+}
+
+.subLogo {
+  margin-top: 32px;
+  max-width: 451px;
+
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 19px rgba(0, 0, 0, 0.8);
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.optionsCard {
+  margin-top: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionsCard h1 {
+  margin-bottom: 56px;
+}
+
+.optionsCardInner {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}

@@ -41,3 +41,22 @@ body > div {
     background-color: #ffffff;
   }
 }
+
+h1 {
+  color: #fff;
+  font-family: Fugaz One;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+
+p {
+  color: #fff;
+  font-family: Oxygen;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
