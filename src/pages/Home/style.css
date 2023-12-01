@@ -33,6 +33,8 @@
 
 .flowImgLogo {
   margin-top: 24px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .subLogo {

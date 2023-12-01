@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Main from "../../components/Main";
-import flowLogo from "../../assets/flow-logo-big.png";
+import flowLogo from "../../assets/flow-logo-big.svg";
 import "./style.css";
 
 export const Sobre = () => {
