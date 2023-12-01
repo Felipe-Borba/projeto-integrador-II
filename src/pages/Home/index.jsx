@@ -80,25 +80,25 @@ export const Home = () => {
   return (
     <>
       <div className="homeBgGirl" />
-      <div className="dna" />
+      <div className="homeDna" />
       <Header />
       <Main>
-        <img className="flowImgLogo" src={flowLogo} alt="Entre no flow" />
-        <p className="subLogo">
+        <img className="homeFlowImgLogo" src={flowLogo} alt="Entre no flow" />
+        <p className="homeSubLogo">
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim
         </p>
 
-        <div className="optionsCard">
+        <div className="homeOptionsCard">
           <h1>NOSSAS OPÇÕES</h1>
-          <div className="optionsCardInner">
+          <div className="homeOptionsCardInner">
             {appOptions.map((i) => (
               <OptionCard {...i} />
             ))}
           </div>
         </div>
 
-        <div className="reviewContainer">
+        <div className="homeReviewContainer">
           {appReview.map((i) => (
             <ReviewCard {...i} />
           ))}

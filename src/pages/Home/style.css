@@ -6,13 +6,13 @@
   flex-shrink: 0;
 
   background: linear-gradient(175deg, rgba(0, 0, 0, 0) 46.75%, #000 133.81%),
-    url("../../assets/home-bg-img-girl.png"),
+    url("../../assets/home/home-bg-img-girl.png"),
     lightgray 0px -86px / 100% 125.163% no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.dna {
+.homDna {
   position: absolute;
   z-index: -1;
   margin-top: 767px;
@@ -23,7 +23,7 @@
   /* flex-shrink: 0; */
 
   opacity: 0.6;
-  background: url("../../assets/forma-metalica-ondulada-na-renderizacao-3d-de-fundo-violeta.png"),
+  background: url("../../assets/home/forma-metalica-ondulada-na-renderizacao-3d-de-fundo-violeta.png"),
     50% / cover no-repeat;
   background-blend-mode: darken;
   background-position: center;
@@ -31,13 +31,13 @@
   filter: blur(21.5px);
 }
 
-.flowImgLogo {
+.homeFlowImgLogo {
   margin-top: 24px;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
-.subLogo {
+.homeSubLogo {
   margin-top: 32px;
   max-width: 451px;
 
@@ -51,8 +51,7 @@
   line-height: normal;
 }
 
-
-.optionsCard {
+.homeOptionsCard {
   margin-top: 200px;
 
   display: flex;
@@ -61,17 +60,17 @@
   align-items: center;
 }
 
-.optionsCard h1 {
+.homeOptionsCard h1 {
   margin-bottom: 56px;
 }
 
-.optionsCardInner {
+.homeOptionsCardInner {
   display: flex;
   flex-direction: row;
   gap: 24px;
 }
 
-.reviewContainer {
+.homeReviewContainer {
   display: flex;
   flex-direction: row;
   gap: 24px;
