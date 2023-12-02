@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Main from "../../components/Main";
-import flowLogo from "../../assets/flow-logo-big.png";
+import flowLogo from "../../assets/flow-logo-big.svg";
 import "./style.css";
 import homeCardReview1 from "../../assets/about/about-card-review-1.png";
 import homeCardReview2 from "../../assets/about/about-card-review-2.png";

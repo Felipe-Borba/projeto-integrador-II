@@ -2,7 +2,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Main from "../../components/Main";
 import "./style.css";
-import flowLogo from "../../assets/flow-logo-big.png";
+import flowLogo from "../../assets/flow-logo-big.svg";
 import { OptionCard } from "./OptionCard";
 import homeCardOption1 from "../../assets/home/home-card-option-1.png";
 import homeCardOption2 from "../../assets/home/home-card-option-2.png";
