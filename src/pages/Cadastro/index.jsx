@@ -2,6 +2,10 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Main from "../../components/Main";
 import React, { useState } from 'react';
+import "./style.css"
+import Input from "../../components/Input";
+import ButtonPrimary from "../../components/Button/ButtonPrimary";
+import ButtonSecondary from "../../components/Button/ButtonSecondary";
 
 
 export const Cadastro = () => {
@@ -41,50 +45,22 @@ export const Cadastro = () => {
     <div className="dna" />
     <Header/>
     <Main>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Usuario:
-            <input 
-              type="name"
-              className="nome"
-              value={FormData.nome}
-              onChange={handleChange}
-            />
-        </label>
-        <br/>
-        <label>
-          Email:
-            <input 
-              type="email" 
-              className="email" 
-              value={FormData.email} 
-              onChange={handleChange}
-            />
-        </label>
-        <br/>
-        <label>
-          Senha:
-            <input 
-              type="password" 
-              className="senha" 
-              value={FormData.senha} 
-              onChange={handleChange}
-            />
-        </label>
-        <br/>
-        <label>
-          Confirmar senha:
-            <input 
-              type="password" 
-              className="confirmarSenha" 
-              value={FormData.confirmarSenha} 
-              onChange={handleChange}
-            />
-        </label>
-        <p style={{ color: 'red' }}>{erroSenha}</p>
-        <button id="btn" type="submit" disabled={erroSenha !== ''}/>
-      </form>
-
+      <div className="bloco"> 
+        <form onSubmit={handleSubmit}>
+          <h2>Cadastro</h2>
+          <Input label={"Usuario"} type={"name"}value={formData.nome} onChange={handleChange}/>
+          <Input label={"Email"} type={"email"} value={FormData.email} onChange={handleChange}/>
+          <Input label={"Senha"} type={"password"} value={FormData.senha} onChange={handleChange}>
+            <p>Senha <span>(mínimo 6 caracteres)</span></p>
+          </Input>
+          <Input label={"Confirmar Senha"} type={"password"} value={FormData.confirmarSenha} onChange={handleChange}>
+            <p>Senha <span>(mínimo 6 caracteres)</span></p>
+          </Input>
+          
+          <p style={{ color: 'red' }}>{erroSenha}</p>
+          <ButtonSecondary>Salvar</ButtonSecondary>
+        </form>
+      </div>
     </Main>
     <Footer/>
   </>);

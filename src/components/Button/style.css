@@ -63,3 +63,27 @@ button::-moz-focus-inner {
   background: #fff;
   box-shadow: 0px 4px 148px 0px rgba(143, 0, 255, 0.25);
 }
+
+.buttonSecondary{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 22.4px */
+
+  width: Fixed (322px);
+  height: Fixed (100px);
+  top: 2424px;
+  left: 973px;
+  padding: 8px, 12px, 8px, 12px;
+  border-radius: 8px;
+  gap: 10px;
+  background: linear-gradient(98.36deg, #A53EFF -7.66%, #FF00E6 133.19%);
+}
+
+.buttonSecondary {
+
+}
+
+
