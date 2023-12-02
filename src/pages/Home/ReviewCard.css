@@ -34,8 +34,6 @@
 }
 
 .reviewCardNameTrailingContent {
-  leading-trim: both;
-  text-edge: cap;
   font-family: Poppins;
   font-size: 60px;
   font-style: normal;

@@ -16,7 +16,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: #0a080f;
+  background-color: #0a080f;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,13 +33,6 @@ body {
 
 body > div {
   width: 100vw;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
 }
 
 h1 {

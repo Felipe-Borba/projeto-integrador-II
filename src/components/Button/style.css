@@ -64,8 +64,8 @@ button::-moz-focus-inner {
   box-shadow: 0px 4px 148px 0px rgba(143, 0, 255, 0.25);
 }
 
-.buttonSecondary{
-  color: #FFF;
+.buttonSecondary {
+  color: #fff;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -79,11 +79,5 @@ button::-moz-focus-inner {
   padding: 8px, 12px, 8px, 12px;
   border-radius: 8px;
   gap: 10px;
-  background: linear-gradient(98.36deg, #A53EFF -7.66%, #FF00E6 133.19%);
+  background: linear-gradient(98.36deg, #a53eff -7.66%, #ff00e6 133.19%);
 }
-
-.buttonSecondary {
-
-}
-
-
