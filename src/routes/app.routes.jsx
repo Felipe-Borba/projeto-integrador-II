@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import { Home } from "../pages/Home";
 import { Cadastro } from "../pages/Cadastro";
 import { Sobre } from "../pages/Sobre";
+import HomeUser from "../pages/HomeUser";
 
 export const AppRoutes = () => {
   return (
@@ -9,6 +10,7 @@ export const AppRoutes = () => {
       <Route path="/" element={<Home />} />
       <Route path="/cadastro" element={<Cadastro />} />
       <Route path="/sobre" element={<Sobre />} />
+      <Route path="/usuario/:name" element={<HomeUser />} />
       {/* <Route path="/dish/create" element={<DishCreate />} />
       <Route path="/dish/view/:id" element={<DishView />} />
       <Route path="/dish/update/:id" element={<DishUpdate />} /> */}
