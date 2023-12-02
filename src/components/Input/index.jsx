@@ -1,13 +1,15 @@
 import "./style.css";
 
-export default function Input({ label, children, ...rest }) {
-    return (
-        <div className="inputContainer">
-            <div>
-                <label>{label}</label>
-                <input {...rest} />
-            </div>
-            {children}
-        </div>
-    )
+export default function Input({ label, children, ...inputProps }) {
+  return (
+    <div className="inputContainer">
+      <div className="inputElement">
+        <input name={inputProps.name} id={inputProps.name} {...inputProps} />
+        <label className="inputFloatingLabel" htmlFor={inputProps.name}>
+          {label}
+        </label>
+      </div>
+      {children}
+    </div>
+  );
 }

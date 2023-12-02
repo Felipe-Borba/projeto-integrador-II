@@ -17,6 +17,7 @@ export const Cadastro = () => {
 
   const [erroSenha, setErroSenha] = useState("");
 
+  //TODO explicar porque esse jeito não é recomendado
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -49,18 +50,22 @@ export const Cadastro = () => {
           <form onSubmit={handleSubmit}>
             <h2>Cadastro</h2>
             <Input
+              name="nome"
               label={"Usuario"}
               type={"name"}
               value={formData.nome}
               onChange={handleChange}
+              // placeholder="teste"
             />
             <Input
+              name="email"
               label={"Email"}
               type={"email"}
               value={FormData.email}
               onChange={handleChange}
             />
             <Input
+              name="senha"
               label={"Senha"}
               type={"password"}
               value={FormData.senha}
@@ -71,6 +76,7 @@ export const Cadastro = () => {
               </p>
             </Input>
             <Input
+              name="confirmarSenha"
               label={"Confirmar Senha"}
               type={"password"}
               value={FormData.confirmarSenha}
