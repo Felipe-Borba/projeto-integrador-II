@@ -26,6 +26,7 @@ export default function Footer() {
       <div className="footerBottomSection">
         <p>© 2023 FLOW. All rights reserved.</p>
         <div className="footerBottomSectionRight">
+          {/* //TODO pagina de privacidade e termos de uso */}
           <p>Política de Privacidade</p>
           <p>Termos de Uso</p>
         </div>
