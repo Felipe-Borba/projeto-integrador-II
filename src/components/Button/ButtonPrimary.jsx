@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-export default function ButtonPrimary({ onClick, children }) {
+export default function ButtonPrimary({ children, ...rest }) {
   return (
-    <button className="buttonPrimary" onClick={onClick}>
+    <button className="buttonPrimary" {...rest}>
       {children}
     </button>
   );

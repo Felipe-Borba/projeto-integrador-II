@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
 
-export default function ButtonLink({ onClick, children }) {
+export default function ButtonLink({ children, ...rest }) {
   return (
-    <button className="buttonLink" onClick={onClick}>
+    <button className="buttonLink" {...rest}>
       {children}
     </button>
   );
