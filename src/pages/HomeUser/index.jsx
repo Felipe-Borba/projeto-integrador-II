@@ -1,12 +1,12 @@
 import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import HeaderUser from "../../components/Header/HeaderUser";
 import Main from "../../components/Main";
 import "./style.css";
 
 export default function HomeUser() {
   return (
     <>
-      <Header />
+      <HeaderUser />
       <Main></Main>
       <Footer />
     </>
