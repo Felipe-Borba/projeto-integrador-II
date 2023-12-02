@@ -31,6 +31,15 @@ footer > div {
   gap: 16px;
 }
 
+.footerTopSection a {
+  font-family: "Fugaz One", sans-serif;
+}
+
+.footerTopSection p {
+  font-size: 2.4rem;
+  font-family: "Fugaz One", sans-serif;
+}
+
 .footerBottomSection p {
   font-size: 1.4rem;
 }

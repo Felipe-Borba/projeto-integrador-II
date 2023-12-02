@@ -3,6 +3,7 @@ import twitterLogo from "../../assets/svg/twitter.svg";
 import "./style.css";
 
 export default function Footer() {
+  const EMAIL = "contato@flow.com";
   return (
     <footer>
       <div className="footerTopSection">
@@ -12,11 +13,13 @@ export default function Footer() {
         <div className="footerTopSectionRight">
           <div>
             <p>Contato</p>
-            <p>(48) 97531-1147</p>
-            <p>contato@flow.com</p>
+            <a href="tel:+5548975311147">(48) 97531-1147</a>
+            <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
           </div>
           <div>
-            <img src={twitterLogo} alt="twitter" />
+            <a href="http://twitter.com" target="_blank">
+              <img src={twitterLogo} alt="twitter" />
+            </a>
           </div>
         </div>
       </div>
