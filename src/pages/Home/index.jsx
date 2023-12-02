@@ -94,15 +94,15 @@ export const Home = () => {
         <div className="homeOptionsCard">
           <h1>NOSSAS OPÇÕES</h1>
           <div className="homeOptionsCardInner">
-            {appOptions.map((i) => (
-              <OptionCard {...i} />
+            {appOptions.map((i, k) => (
+              <OptionCard key={k} {...i} />
             ))}
           </div>
         </div>
 
         <div className="homeReviewContainer">
-          {appReview.map((i) => (
-            <ReviewCard {...i} />
+          {appReview.map((i, k) => (
+            <ReviewCard key={k} {...i} />
           ))}
         </div>
       </Main>
