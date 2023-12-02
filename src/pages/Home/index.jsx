@@ -17,6 +17,7 @@ import homeCardReview2 from "../../assets/home/home-card-review-2.png";
 import homeCardReview3 from "../../assets/home/home-card-review-3.png";
 import homeCardReview4 from "../../assets/home/home-card-review-4.png";
 import ReviewCard from "./ReviewCard";
+import homeBg from "../../assets/home/background.png";
 
 const appOptions = [
   {
@@ -79,8 +80,9 @@ const appReview = [
 export const Home = () => {
   return (
     <>
-      <div className="homeBgGirl" />
-      <div className="homeDna" />
+      <div className="homeBg">
+        <img src={homeBg} alt="" />
+      </div>
       <Header />
       <Main>
         <img className="homeFlowImgLogo" src={flowLogo} alt="Entre no flow" />

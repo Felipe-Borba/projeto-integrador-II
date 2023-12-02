@@ -1,18 +1,21 @@
 import React from "react";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
-import Main from "../../components/Main";
-import flowLogo from "../../assets/flow-logo-big.svg";
-import "./style.css";
 import homeCardReview1 from "../../assets/about/about-card-review-1.png";
 import homeCardReview2 from "../../assets/about/about-card-review-2.png";
 import homeCardReview3 from "../../assets/about/about-card-review-3.png";
 import homeCardReview4 from "../../assets/about/about-card-review-4.png";
+import flowLogo from "../../assets/flow-logo-big.svg";
+import homeBg from "../../assets/home/background.png";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Main from "../../components/Main";
+import "./style.css";
 
 export const Sobre = () => {
   return (
     <>
-      <div className="homeBgGirl" />
+      <div className="homeBg">
+        <img src={homeBg} alt="" />
+      </div>
       <Header />
       <Main>
         <div className="flowImgLogoStyle">

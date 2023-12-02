@@ -1,11 +1,11 @@
+import React, { useState } from "react";
+import homeBg from "../../assets/home/background.png";
+import ButtonSecondary from "../../components/Button/ButtonSecondary";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Main from "../../components/Main";
-import React, { useState } from "react";
-import "./style.css";
 import Input from "../../components/Input";
-import ButtonPrimary from "../../components/Button/ButtonPrimary";
-import ButtonSecondary from "../../components/Button/ButtonSecondary";
+import Main from "../../components/Main";
+import "./style.css";
 
 export const Cadastro = () => {
   const [formData, setFormData] = useState({
@@ -40,8 +40,9 @@ export const Cadastro = () => {
 
   return (
     <>
-      <div className="homeBgGirl" />
-      <div className="homeBgDna" />
+      <div className="homeBg">
+        <img src={homeBg} alt="" />
+      </div>
       <Header />
       <Main>
         <div className="signIn">
