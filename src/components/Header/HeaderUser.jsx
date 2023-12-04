@@ -21,6 +21,8 @@ export default function HeaderUser() {
         <ButtonPrimary
           onClick={() => {
             //TODO desloga o usuário e volta para a home
+            //TODO esvazia a stack
+            navigate("/")
           }}
         >
           Sair

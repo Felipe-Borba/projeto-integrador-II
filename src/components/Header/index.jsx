@@ -27,8 +27,10 @@ export default function Header() {
       </nav>
 
       <div>
-        <ButtonLink onClick={() => navigate("/cadastro")}>Fazer cadastro</ButtonLink>
-        <ButtonPrimary>Entrar</ButtonPrimary>
+        <ButtonLink onClick={() => navigate("/cadastro")}>
+          Fazer cadastro
+        </ButtonLink>
+        <ButtonPrimary onClick={() => navigate("/login")}>Entrar</ButtonPrimary>
       </div>
     </header>
   );
