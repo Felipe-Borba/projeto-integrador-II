@@ -3,6 +3,7 @@ import { Home } from "../pages/Home";
 import { Cadastro } from "../pages/Cadastro";
 import { Sobre } from "../pages/Sobre";
 import HomeUser from "../pages/HomeUser";
+import Login from "../pages/login";
 import { Product } from "../pages/Product";
 
 export const AppRoutes = () => {
