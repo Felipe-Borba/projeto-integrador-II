@@ -45,7 +45,8 @@ export const Sobre = () => {
               sed incidunt asperiores. Lorem ipsum dolor sit amet. Ut fugiat
               aliquid nam consectetur perferendis et facilis voluptas vel
               deserunt minima est dolore recusandae et corporis earum hic atque
-              recusandae! Ea consequuntur voluptas non fugiat consectetur a tempore quibusdam rem molestiae numquam. Aut ullam ducimus ad
+              recusandae! Ea consequuntur voluptas non fugiat consectetur a tempore 
+              quibusdam rem molestiae numquam. Aut ullam ducimus ad
               voluptatem optio est delectus galisum ab inventore illum. Ut vero
               possimus est odit repellat eum distinctio nemo et dolor enim ut
               labore libero. Id perspiciatis cupiditate a voluptatibus sunt eum
