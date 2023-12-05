@@ -10,7 +10,7 @@ import Header from "../../components/Header";
 import Main from "../../components/Main";
 import "./style.css";
 
-export const Sobre = () => {
+export const Product = () => {
   return (
     <>
       <div className="homeBg">
@@ -22,12 +22,12 @@ export const Sobre = () => {
           <img className="flowImgLogo" src={flowLogo} alt="Entre no flow" />
         </div>
 
-        <div className="aboutAboutUs">
+        <div className="productAboutUs">
           <p>
-            <h1>SOBRE NÓS</h1>
+            <h1>NOSSO PRODUTO</h1>
           </p>
 
-          <div className="aboutInfoBox">
+          <div className="productInfoBox">
             <p>
               Lorem ipsum dolor sit amet. Ut fugiat aliquid nam consectetur
               perferendis et facilis voluptas vel deserunt minima est dolore
@@ -54,26 +54,26 @@ export const Sobre = () => {
               aliquid nam consectetur perferendis et facilis voluptas vel
             </p>
 
-            <div className="aboutIconContainer">
-              <div class="aboutIcon">
+            <div className="productIconContainer">
+              <div class="productIcon">
                 <img src={homeCardReview1} alt="icon1" />
               </div>
-              <div class="aboutIcon">
+              <div class="productIcon">
                 <img src={homeCardReview2} alt="icon2" />
               </div>
-              <div class="aboutIcon">
+              <div class="productIcon">
                 <img src={homeCardReview3} alt="icon3" />
               </div>
-              <div class="aboutIcon">
+              <div class="productIcon">
                 <img src={homeCardReview4} alt="icon4" />
               </div>
             </div>
 
-            <div className="aboutIconContainer">
-              <div class="aboutIconText">Bruno H</div>
-              <div class="aboutIconText">Felipe B</div>
-              <div class="aboutIconText">André L</div>
-              <div class="aboutIconText">Leonardo M</div>
+            <div className="productIconContainer">
+              <div class="productIconText">Bruno H</div>
+              <div class="productIconText">Felipe B</div>
+              <div class="productIconText">André L</div>
+              <div class="productIconText">Leonardo M</div>
             </div>
           </div>
         </div>

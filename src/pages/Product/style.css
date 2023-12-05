@@ -1,4 +1,4 @@
-.aboutAboutUs {
+.productAboutUs {
     text-align: center;
     padding-top: 50px;
     font-style: Poppins;
@@ -15,7 +15,7 @@
     flex-shrink: 0;
   }
   
-  .aboutInfoBox {
+  .productInfoBox {
     background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 20px;
@@ -24,14 +24,14 @@
     opacity: 85%;
   }
   
-  .aboutIconContainer {
+  .productIconContainer {
     padding-top: 30px;
     display: flex;
     justify-content: space-evenly;
     padding-left: 20px;
   }
   
-  .aboutIcon {
+  .productIcon {
     width: 75px;
     height: 75px;
     border-radius: 50%;
@@ -44,7 +44,7 @@
     font-size: 24px;
   }
   
-  .aboutIconText {
+  .productIconText {
     width: 80px;
     height: 80px;
     margin-bottom: 15px;
