@@ -1,6 +1,8 @@
+import React, { useState, useEffect } from 'react';
 import Footer from "../../components/Footer";
 import HeaderUser from "../../components/Header/HeaderUser";
 import Main from "../../components/Main";
+import Carousel from "./Carousel";
 import "./style.css";
 
 const eventos = [
@@ -61,10 +63,18 @@ const eventos = [
 ];
 
 export default function HomeUser() {
+
+  
+
   return (
     <>
       <HeaderUser />
-      <Main></Main>
+      <div className="carousel-container">
+          <Carousel cards={eventos} />
+        </div>
+      <Main>
+        
+      </Main>
       <Footer />
     </>
   );
