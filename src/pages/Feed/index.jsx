@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import Footer from "../../components/Footer";
 import HeaderUser from "../../components/Header/HeaderUser";
 import Main from "../../components/Main";
@@ -62,19 +62,14 @@ const eventos = [
   },
 ];
 
-export default function HomeUser() {
-
-  
-
+export default function Feed() {
   return (
     <>
       <HeaderUser />
       <div className="carousel-container">
-          <Carousel cards={eventos} />
-        </div>
-      <Main>
-        
-      </Main>
+        <Carousel cards={eventos} />
+      </div>
+      <Main></Main>
       <Footer />
     </>
   );

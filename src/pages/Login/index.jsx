@@ -19,7 +19,7 @@ export default function Login() {
     e.preventDefault();
     console.log("Dados do formulário enviados:", formData);
     //TODO login
-    navigate("/usuario/felipe");
+    navigate("/feed/felipe");
   };
 
   return (
