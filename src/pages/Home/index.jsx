@@ -23,31 +23,25 @@ const appOptions = [
   {
     title: "PROCURAR UM EVENTO PERTO DE VOCÊ",
     description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim",
+      "Deixamos você antenado a todos os eventos que estão rolando perto de você, seu único dever é sair pra curtir a noite toda!",
     image: homeCardOption1,
     svg: homeCardSvg1,
   },
   {
-    title: "PROCURAR UM EVENTO PERTO DE VOCÊ",
+    title: "DEIXAMOS VOCÊ ANTENADO DO EVENTO",
     description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim",
+      "Disponibilizamos as principais informações do evento para você, facilitando a sua escolha!",
     image: homeCardOption2,
     svg: homeCardSvg2,
   },
   {
-    title: "PROCURAR UM EVENTO PERTO DE VOCÊ",
+    title: "VEJA AS AVALIAÇÕES DE USUÁRIOS",
     description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim",
+      "Fique por dentro dos principais feedbacks e avaliações de usuários que frequentaram o evento da sua escolha!",
     image: homeCardOption3,
     svg: homeCardSvg3,
   },
-  {
-    title: "PROCURAR UM EVENTO PERTO DE VOCÊ",
-    description:
-      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim",
-    image: homeCardOption4,
-    svg: homeCardSvg4,
-  },
+
 ];
 
 const appReview = [
@@ -55,25 +49,25 @@ const appReview = [
     image: homeCardReview1,
     name: "OLIVIA BANKS",
     review:
-      "“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim sint occaecat cupidatat non proident, sunt in culpa qui offsint occaecat cupidatat non proident, sunt in culpa qui off”",
+      "“Tava numa sexta com uma vontade absurda de sair, mas SEM IDÉIA ALGUMA PRA ONDE IR, foi ai que conheci o flow, logo depois de fazer meu cadastro, ja de cara me indicaram eventos que tinha tudo haver cmg, simplesmente AMEIII ”",
   },
   {
     image: homeCardReview2,
     name: "DAVID MARSHALL",
     review:
-      "“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim sint occaecat cupidatat non proident, sunt in culpa qui offsint occaecat cupidatat non proident, sunt in culpa qui off”",
+      "“Simplestemente apaixonado pelo flow, todos os dias me indica eventos que super combinam comigo, ja me ajudou a achar eventos e conhecer pessoas que não tinha nem idéia que um dia iria conhecer, obrigado pela idéa maravilhora!!”",
   },
   {
     image: homeCardReview3,
-    name: "RODRIGO SILVA",
+    name: "DONA CLEUSA",
     review:
-      "“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim sint occaecat cupidatat non proident, sunt in culpa qui offsint occaecat cupidatat non proident, sunt in culpa qui off”",
+      "“Graças ao flow, consegui potencializar meus negócios, trabalho com uma barraquinha de cachorro quente, e meu maior problema éra saber onde achar uma grande quantidade de pessoas com fome... Graças ao flow, fico antenada dos principais eventos!!”",
   },
   {
     image: homeCardReview4,
     name: "MICHAEL OLIVER",
     review:
-      "“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim sint occaecat cupidatat non proident, sunt in culpa qui offsint occaecat cupidatat non proident, sunt in culpa qui off”",
+      "“Sou do tipo que gosta de um rock pesado, roda punk, música alta, cerveja gelada e mulher bonita. Meu maior problema éra aonde procurar esse tipo de evento, assim que conheci um flow, não perco 1 único evento na minha cidade e na região, vlw equipe do flow!!”",
   },
 ];
 
@@ -87,8 +81,7 @@ export const Home = () => {
       <Main>
         <img className="homeFlowImgLogo" src={flowLogo} alt="Entre no flow" />
         <p className="homeSubLogo">
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim
+          Facilitando a sua procura por um role
         </p>
 
         <div className="homeOptionsCard">
