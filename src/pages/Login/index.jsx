@@ -22,7 +22,6 @@ export default function Login() {
     navigate("/usuario/felipe");
   };
 
-  console.log("saa");
   return (
     <>
       <div className="homeBg">
