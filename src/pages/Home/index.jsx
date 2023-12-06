@@ -41,7 +41,6 @@ const appOptions = [
     image: homeCardOption3,
     svg: homeCardSvg3,
   },
-
 ];
 
 const appReview = [
@@ -79,25 +78,25 @@ export const Home = () => {
       </div>
       <Header />
       <Main>
-        <img className="homeFlowImgLogo" src={flowLogo} alt="Entre no flow" />
-        <p className="homeSubLogo">
-          Facilitando a sua procura por um role
-        </p>
+        <section>
+          <img className="homeFlowImgLogo" src={flowLogo} alt="Entre no flow" />
+          <p className="homeSubLogo">Facilitando a sua procura por um role</p>
+        </section>
 
-        <div className="homeOptionsCard">
+        <section className="homeOptionsCard">
           <h1>NOSSAS OPÇÕES</h1>
           <div className="homeOptionsCardInner">
             {appOptions.map((i, k) => (
               <OptionCard key={k} {...i} />
             ))}
           </div>
-        </div>
+        </section>
 
-        <div className="homeReviewContainer">
+        <section className="homeReviewContainer">
           {appReview.map((i, k) => (
             <ReviewCard key={k} {...i} />
           ))}
-        </div>
+        </section>
       </Main>
       <Footer />
     </>

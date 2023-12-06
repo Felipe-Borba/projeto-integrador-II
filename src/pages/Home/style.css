@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-.homeBg > img {
+.homeBg > section > img {
   object-fit: cover;
   width: 100%;
 }
