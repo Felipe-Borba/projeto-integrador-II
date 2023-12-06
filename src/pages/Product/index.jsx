@@ -28,7 +28,11 @@ export const Product = () => {
           </p>
 
           <div className="productInfoBox">
-            <p>
+            <img className="productPhoneImage" src="\src\assets\product\iphonescreen.png" alt="failed" />
+            
+            <div className="productText">
+              <h1>PROBLEMA</h1>
+              <p>
               Lorem ipsum dolor sit amet. Ut fugiat aliquid nam consectetur
               perferendis et facilis voluptas vel deserunt minima est dolore
               recusandae et corporis earum hic atque recusandae! Ea consequuntur
@@ -36,44 +40,20 @@ export const Product = () => {
               necessitatibus ex dolorem dolorem sed quis enim id enim quibusdam!
               Est quia praesentium ad velit quia ut accusantium quos qui vero
               dolores sit atque quia. Et fugit esse ad maxime corrupti non nihil
-              veritatis non debitis amet non minus quibusdam. Ut ullam omnis et
-              tempore quibusdam rem molestiae numquam. Aut ullam ducimus ad
-              voluptatem optio est delectus galisum ab inventore illum. Ut vero
-              possimus est odit repellat eum distinctio nemo et dolor enim ut
-              labore libero. Id perspiciatis cupiditate a voluptatibus sunt eum
-              dicta reiciendis qui sunt esse qui doloribus enim aut ullam omnis
-              sed incidunt asperiores. Lorem ipsum dolor sit amet. Ut fugiat
-              aliquid nam consectetur perferendis et facilis voluptas vel
-              deserunt minima est dolore recusandae et corporis earum hic atque
-              recusandae! Ea consequuntur voluptas non fugiat consectetur a tempore quibusdam rem molestiae numquam. Aut ullam ducimus ad
-              voluptatem optio est delectus galisum ab inventore illum. Ut vero
-              possimus est odit repellat eum distinctio nemo et dolor enim ut
-              labore libero. Id perspiciatis cupiditate a voluptatibus sunt eum
-              dicta reiciendis qui sunt esse qui doloribus enim aut ullam omnis
-              sed incidunt asperiores. Lorem ipsum dolor sit amet. Ut fugiat
-              aliquid nam consectetur perferendis et facilis voluptas vel
-            </p>
+              <h1>PROPOSTA</h1>
+              Lorem ipsum dolor sit amet. Ut fugiat aliquid nam consectetur
+              perferendis et facilis voluptas vel deserunt minima est dolore
+              recusandae et corporis earum hic atque recusandae! Ea consequuntur
+              voluptas non fugiat consectetur a impedit illo! Et sint
+              necessitatibus ex dolorem dolorem sed quis enim id enim quibusdam!
+              <h1>OBJETIVO</h1>
+              Lorem ipsum dolor sit amet. Ut fugiat aliquid nam consectetur
+              perferendis et facilis voluptas vel deserunt minima est dolore
+              recusandae et corporis earum hic atque recusandae! Ea consequuntur
+              voluptas non fugiat consectetur a impedit illo! Et sint
+              necessitatibus ex dolorem dolorem sed quis enim id enim quib
 
-            <div className="productIconContainer">
-              <div class="productIcon">
-                <img src={homeCardReview1} alt="icon1" />
-              </div>
-              <div class="productIcon">
-                <img src={homeCardReview2} alt="icon2" />
-              </div>
-              <div class="productIcon">
-                <img src={homeCardReview3} alt="icon3" />
-              </div>
-              <div class="productIcon">
-                <img src={homeCardReview4} alt="icon4" />
-              </div>
-            </div>
-
-            <div className="productIconContainer">
-              <div class="productIconText">Bruno H</div>
-              <div class="productIconText">Felipe B</div>
-              <div class="productIconText">André L</div>
-              <div class="productIconText">Leonardo M</div>
+              </p>
             </div>
           </div>
         </div>
