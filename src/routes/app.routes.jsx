@@ -14,7 +14,7 @@ export const AppRoutes = () => {
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/feed/:name" element={<Feed />} />
       <Route path="/product" element={<Product />} />
-      <Route path="/Login" element={<Login />}/>
+      <Route path="/login" element={<Login />} />
       {/* <Route path="/dish/create" element={<DishCreate />} />
       <Route path="/dish/view/:id" element={<DishView />} />
       <Route path="/dish/update/:id" element={<DishUpdate />} /> */}
