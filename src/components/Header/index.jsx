@@ -2,26 +2,26 @@ import "./style.css";
 import flowLogo from "../../assets/flow-logo-small.svg";
 import ButtonLink from "../Button/ButtonLink";
 import ButtonPrimary from "../Button/ButtonPrimary";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
   const navigate = useNavigate();
   return (
     <header>
-      <a href="/">
+      <Link to="/">
         <img src={flowLogo} alt="flow logo" />
-      </a>
+      </Link>
 
       <nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/sobre">Sobre nós</a>
+            <Link to="/sobre">Sobre nós</Link>
           </li>
           <li>
-            <a href="/">Download App</a>
+            <Link href="/">Download App</Link>
           </li>
         </ul>
       </nav>
