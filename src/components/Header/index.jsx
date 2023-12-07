@@ -3,16 +3,34 @@ import flowLogo from "../../assets/flow-logo-small.svg";
 import ButtonLink from "../Button/ButtonLink";
 import ButtonPrimary from "../Button/ButtonPrimary";
 import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
+
 
 export default function Header() {
   const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+
+
   return (
-    <header>
+    <header className={`header ${menuOpen ? 'open' : ''}`}>
+      <button className="menu-toggle" onClick={toggleMenu}>
+        ☰
+      </button>
+
       <Link to="/">
         <img src={flowLogo} alt="flow logo" />
       </Link>
 
-      <nav>
+      <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         <ul>
           <li>
             <Link to="/">Home</Link>
