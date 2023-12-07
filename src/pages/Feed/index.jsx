@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from "react";
-import Footer from "../../components/Footer";
-import HeaderUser from "../../components/Header/HeaderUser";
-import Main from "../../components/Main";
-import Carousel from "./Carousel";
+import React from "react";
+import LayoutMain from "../../components/Layout/LayoutMain";
+import Carousel from "./CarouselCustom";
 import "./style.css";
 
 const eventos = [
@@ -64,13 +62,13 @@ const eventos = [
 
 export default function Feed() {
   return (
-    <>
-      <HeaderUser />
-      <div className="carousel-container">
-        <Carousel cards={eventos} />
-      </div>
-      <Main></Main>
-      <Footer />
-    </>
+    <LayoutMain>
+      <section className="feed-container">
+        <h1>Eventos recomendados:</h1>
+        <div className="feed-carousel-container">
+          <Carousel events={eventos} />
+        </div>
+      </section>
+    </LayoutMain>
   );
 }

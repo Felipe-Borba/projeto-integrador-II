@@ -1,6 +1,7 @@
 header {
   display: flex;
   flex: 1;
+  width: 100%;
   padding: 24px 80px;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +71,7 @@ header > nav a {
     display: block;
   }
 
-  .header{
+  .header {
     display: flex;
     flex: 1;
     padding: 24px 120px;
