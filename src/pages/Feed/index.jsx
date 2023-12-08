@@ -62,7 +62,7 @@ const eventos = [
 
 export default function Feed() {
   return (
-    <LayoutMain>
+    <LayoutMain headerUser>
       <section className="feed-container">
         <h1>Eventos recomendados:</h1>
         <div className="feed-carousel-container">

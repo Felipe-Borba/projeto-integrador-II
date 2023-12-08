@@ -45,6 +45,15 @@ h1 {
   letter-spacing: -1.92px;
 }
 
+h2 {
+  color: #fff;
+  font-family: Fugaz One;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 p {
   color: #fff;
   font-family: Oxygen;
