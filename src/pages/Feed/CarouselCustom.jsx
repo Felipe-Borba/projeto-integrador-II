@@ -18,17 +18,18 @@ export default function CarouselCustom({ events }) {
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log("slide change")}
+          loop
         >
           {events && events.length > 0 ? (
             events.map((event) => (
               <SwiperSlide key={event.id} className="carousel-custom-card">
-                <h2>{event.title}</h2>
-                <p>{event.description}</p>
-                <p>Date: {event.eventDate.toLocaleDateString()}</p>
-                <p>Place: {event.place}</p>
-                <p>City: {event.city}</p>
+                <div>
+                  <h2>{event.title}</h2>
+                  <p>{event.description}</p>
+                  <p>Dia: {event.eventDate.toLocaleDateString()}</p>
+                  <p>Ligar: {event.place}</p>
+                  <p>Cidade: {event.city}</p>
+                </div>
               </SwiperSlide>
             ))
           ) : (
