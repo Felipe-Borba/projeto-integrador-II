@@ -25,10 +25,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
+  scroll-snap-type: y mandatory;
 }
 
 body > div {
