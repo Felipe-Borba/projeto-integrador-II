@@ -10,3 +10,11 @@
 .layout-main > main {
   flex: 1;
 }
+
+.layout-main > header {
+  scroll-snap-align: start;
+}
+
+.layout-main > footer {
+  scroll-snap-align: end;
+}
