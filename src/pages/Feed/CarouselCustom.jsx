@@ -6,6 +6,7 @@ import "swiper/css/scrollbar";
 import { A11y, Navigation, Pagination, Scrollbar } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "./CarouselCustom.css";
+import ButtonSecondary from "../../components/Button/ButtonSecondary";
 
 export default function CarouselCustom({ events }) {
   return (
@@ -22,15 +23,24 @@ export default function CarouselCustom({ events }) {
         >
           {events && events.length > 0 ? (
             events.map((event) => (
-              <SwiperSlide key={event.id} className="carousel-custom-card">
-                <img src={event?.image} alt="" />
-                {/* <div>
-                  <h2>{event.title}</h2>
-                  <p>{event.description}</p>
-                  <p>Dia: {event.eventDate.toLocaleDateString()}</p>
-                  <p>Ligar: {event.place}</p>
-                  <p>Cidade: {event.city}</p>
-                </div> */}
+              <SwiperSlide
+                key={event.id}
+                className="carousel-custom-card-wrapper"
+              >
+                <div
+                  className="carousel-custom-card"
+                  style={{
+                    backgroundImage: `url(${event?.image})`,
+                  }}
+                >
+                  <ButtonSecondary
+                    onClick={() => {
+                      window.open(event?.link);
+                    }}
+                  >
+                    Saiba mais
+                  </ButtonSecondary>
+                </div>
               </SwiperSlide>
             ))
           ) : (
