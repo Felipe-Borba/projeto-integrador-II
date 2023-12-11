@@ -48,10 +48,10 @@ export const Cadastro = () => {
       <Main>
         <div className="signIn">
           <form onSubmit={handleSubmit}>
-            <h2>Cadastro</h2>
+            <h2>CADASTRO</h2>
             <Input
               name="nome"
-              label={"Usuario"}
+              label={"Usuário"}
               type={"name"}
               value={formData.nome}
               onChange={handleChange}

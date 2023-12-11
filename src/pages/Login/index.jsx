@@ -31,7 +31,7 @@ export default function Login() {
       <Main>
         <div className="login">
           <form onSubmit={handleSubmit}>
-            <h2>Login</h2>
+            <h2>LOGIN</h2>
             <Input
               name="email"
               label={"Email"}
@@ -51,7 +51,7 @@ export default function Login() {
               }
             />
 
-            <ButtonSecondary>login</ButtonSecondary>
+            <ButtonSecondary>Avançar</ButtonSecondary>
           </form>
         </div>
       </Main>

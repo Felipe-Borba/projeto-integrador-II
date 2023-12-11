@@ -1,5 +1,6 @@
 .signIn{
-  margin-top: 24px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,6 +9,7 @@
   width: 500px;
   background-color: #000;
   border-radius: 12px;
+  opacity: 93%;
 }
 
 .signIn form {
@@ -19,7 +21,7 @@
   border-radius: 7px;
   padding: 40px;
   box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
-  gap: 16px
+  gap: 16px;
 }
 
 .signIn h2 {

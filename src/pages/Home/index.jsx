@@ -80,7 +80,7 @@ export const Home = () => {
       <Main>
         <section>
           <img className="homeFlowImgLogo" src={flowLogo} alt="Entre no flow" />
-          <p className="homeSubLogo">Facilitando a sua procura por um role</p>
+          <p className="homeSubLogo">AGILIZANDO SEU ROLÊ!</p>
         </section>
 
         <section className="homeOptionsCard">

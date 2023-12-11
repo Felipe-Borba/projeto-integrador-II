@@ -41,6 +41,9 @@ export default function Header() {
           <li>
             <Link href="/">Download App</Link>
           </li>
+          <li>
+            <Link to="/product">Nosso Produto</Link>
+          </li>
         </ul>
       </nav>
 
