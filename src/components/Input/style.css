@@ -48,6 +48,8 @@ input {
     -webkit-transform 0.1s ease, -moz-transform 0.1s ease,
     -o-transform 0.1s ease;
 }
+
+input:not(:placeholder-shown) ~ .inputFloatingLabel,
 input:focus ~ .inputFloatingLabel {
   font-size: 1.1rem;
   top: 7px;
